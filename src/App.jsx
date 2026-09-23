@@ -1,10 +1,10 @@
-import "./App.css";
+import Layout from "./shared/components/Layout/Layout.jsx";
 
 function App() {
 	return (
-		<>
-			<h1>Workout Tracker</h1>
-		</>
+		<Layout>
+			<p>children</p>
+		</Layout>
 	);
 }
 
